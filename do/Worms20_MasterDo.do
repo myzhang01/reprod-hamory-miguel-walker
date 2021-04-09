@@ -10,7 +10,7 @@ set more off
 set maxvar 10000
 
 //Define directory structure
-global dir "" //Update to own local directory
+global dir "\\Client\C:\Users\myzha\Documents\GitHub\reprod-hamory-miguel-walker" //Update to own local directory
 
 * generate folders not included in the replication folder structure
 cd "$dir"
