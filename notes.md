@@ -2,9 +2,11 @@
 
 [replication data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TTYMHI)
 
-## To make `Worms20_MasterDo` run (using Citrix):
+## To make `Worms20_MasterDo.do` run (using Citrix):
 
 - change global directory to `\\Client\C:\Users\myzha\Documents\GitHub\reprod-hamory-miguel-walker`
 - in Stata command line:
-  - enter `cd \\Client\C:\Users\myzha\Documents\Stata\reprod-hamory-miguel-walker_ado`
-  - then enter `adopath ++ \\Client\C:\Users\myzha\Documents\Stata\reprod-hamory-miguel-walker_ado`
+  - enter `sysdir set PLUS \\Client\C:\Users\myzha\Documents\Stata\ado\`
+  - enter `sysdir set PERSONAL \\Client\C:\Users\myzha\Documents\GitHub\reprod-hamory-miguel-walker\ado`
+  - in `C:\Users\myzha\Documents\GitHub\reprod-hamory-miguel-walker\ado`, create a folder `f` and place `fdr_adjustment.do` inside
+  - also need to enter `ssc install texdoc, replace`
