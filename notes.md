@@ -13,6 +13,7 @@
 
 ## temporary reference
 
+change repository to not read-only?
 fdr_sharpened_qvalues.do is actually fdr_adjustment.do ?
 https://stackoverflow.com/questions/43287524/stata-ado-package-not-found
 https://www.statalist.org/forums/forum/general-stata-discussion/general/1299948-stata-won-t-change-content-directory
