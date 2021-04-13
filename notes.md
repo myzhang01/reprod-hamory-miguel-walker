@@ -13,7 +13,7 @@
 
 ## temporary reference
 
-change repository to not read-only?
+some intractable issue with `esttab` not working when `\\Client\C:\` is in the filepath
 fdr_sharpened_qvalues.do is actually fdr_adjustment.do ?
 https://stackoverflow.com/questions/43287524/stata-ado-package-not-found
 https://www.statalist.org/forums/forum/general-stata-discussion/general/1299948-stata-won-t-change-content-directory
@@ -21,3 +21,5 @@ https://www.statalist.org/forums/forum/general-stata-discussion/general/1542570-
 https://www.statalist.org/forums/forum/general-stata-discussion/general/1468243-cannot-write-in-directory-c-ado-plus-o
 https://kb.iu.edu/d/arur
 https://www.stata.com/manuals/psysdir.pdf
+https://guides.lib.berkeley.edu/citrix/stata
+https://www.eui.eu/ServicesAndAdmin/ComputingService/KnownIssues/CitrixStataCannotInstallPackage
