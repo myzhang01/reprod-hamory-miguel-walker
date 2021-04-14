@@ -13,8 +13,9 @@
 
 ## temporary reference
 
-some intractable issue with `esttab` not working when `\\Client\C:\` is in the filepath
-fdr_sharpened_qvalues.do is actually fdr_adjustment.do ?
+- some intractable issue with `esttab` not working when `\\Client\C:\` is in the filepath
+  - in earnings .do file, change `esttab` filepath to be relative to working directory?
+- fdr_sharpened_qvalues.do is actually fdr_adjustment.do ?
 https://stackoverflow.com/questions/43287524/stata-ado-package-not-found
 https://www.statalist.org/forums/forum/general-stata-discussion/general/1299948-stata-won-t-change-content-directory
 https://www.statalist.org/forums/forum/general-stata-discussion/general/1542570-stata-does-not-find-the-location-of-an-ado-file
