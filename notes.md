@@ -24,3 +24,5 @@ https://kb.iu.edu/d/arur
 https://www.stata.com/manuals/psysdir.pdf
 https://guides.lib.berkeley.edu/citrix/stata
 https://www.eui.eu/ServicesAndAdmin/ComputingService/KnownIssues/CitrixStataCannotInstallPackage
+https://www.statalist.org/forums/forum/general-stata-discussion/general/1588097-estout-returning-file-could-not-be-opened-error-except-for-tex-files
+https://www.statalist.org/forums/forum/general-stata-discussion/general/1315088-r-603-error-can-save-file-help
