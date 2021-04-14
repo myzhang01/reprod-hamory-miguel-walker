@@ -19,7 +19,7 @@ library(grid)
 library(gridExtra)
 
 #-------- set main directory
-setwd(".")
+setwd("C:/Users/myzha/Documents/GitHub/reprod-hamory-miguel-walker")
 
 #------- load dataset of estimates from Excel
 data<- read_excel("temp/Consumption_results_for_R.xlsx")

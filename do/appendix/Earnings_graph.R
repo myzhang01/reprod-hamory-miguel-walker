@@ -19,7 +19,7 @@ library(ggrepel)
 library(grid)
 
 #-------- set main directory
-setwd(".")
+setwd("C:/Users/myzha/Documents/GitHub/reprod-hamory-miguel-walker")
 
 #------- load dataset of estimates from Excel
 earnings.df<- read_excel("temp/Earnings_results_for_R.xlsx")
