@@ -5,6 +5,8 @@
 ## To make `Worms20_MasterDo.do` run (using Citrix):
 
 - change global directory to `\\Client\C:\Users\myzha\Documents\GitHub\reprod-hamory-miguel-walker`
+- remove `$` from every filepath within an `esttab using` command
+  - for 3 files, replace `$table` with `output`
 - in Stata command line:
   - enter `sysdir set PLUS \\Client\C:\Users\myzha\Documents\Stata\ado\`
   - enter `sysdir set PERSONAL \\Client\C:\Users\myzha\Documents\GitHub\reprod-hamory-miguel-walker\ado`
