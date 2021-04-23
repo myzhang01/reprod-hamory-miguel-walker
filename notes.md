@@ -9,7 +9,7 @@ Starting from a fresh download of the [reproduction package](https://dataverse.h
     - If you try running `Worms20_MasterDo.do` right now, you will run into an error saying that some file already exists (error code `r(602)`). To fix this, we need to …
 
 2. Set the location where `.ado` files will be installed
-    - Berkeley provides a [guide](https://guides.lib.berkeley.edu/citrix/stata) to installing `.ado` files for Citrix users. Despite much testing, I could not get Stata to successfully install and/or recognize the required `.ado` files following Berkeley's guide
+    - UC Berkeley provides a [guide](https://guides.lib.berkeley.edu/citrix/stata) to installing `.ado` files for Citrix users. Despite much testing, I could not get Stata to successfully install and/or recognize the required `.ado` files following Berkeley's guide
     - Here is my workaround:
       - Somewhere on your local machine, create a folder to store the `.ado` files you install from online. My folder is located at the path `C:\Users\myzha\Documents\Stata\ado`
       - Every single time you start up Stata via Citrix, you will need to enter the following two commands:

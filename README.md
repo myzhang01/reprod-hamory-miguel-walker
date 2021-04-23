@@ -1,5 +1,6 @@
 # reprod-hamory-miguel-walker
-A revised reproduction package for 'Twenty-year economic impacts of deworming' by Joan Hamory, Edward Miguel, Michael Walker, Michael Kremer, and Sarah Baird (2021)
+
+This is a revised reproduction package for 'Twenty-year economic impacts of deworming' by Joan Hamory, Edward Miguel, Michael Walker, Michael Kremer, and Sarah Baird (2021).
 
 This reproduction attempt was documented on the [Social Science Reproduction Platform](https://www.socialsciencereproduction.org/). The link to this reproduction can be found [here](https://www.socialsciencereproduction.org/reproductions/0d5ad5d3-5a6e-40f0-96c4-56f377588d7b/index). A reproduction tree can be found below:
 
@@ -175,9 +176,11 @@ KLPS4_cost_benefit_pooled.eps (Figure 2)
     └── input placeholder 7
 ```
 
-A guide to reproducing 'Twenty-year economic impacts of deworming' for users who access Stata through Citrix can be found below:
+---
 
-#### To make `Worms20_MasterDo.do` run (using Citrix):
+A guide to reproducing the paper for users who access Stata through Citrix can be found below:
+
+### To make `Worms20_MasterDo.do` run (using Citrix):
 
 Starting from a fresh download of the [reproduction package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TTYMHI) for ['Twenty-year economic impacts of deworming'](https://www.pnas.org/content/118/14/e2023185118):
 
@@ -213,3 +216,11 @@ Starting from a fresh download of the [reproduction package](https://dataverse.h
     - If you try running `Worms20_MasterDo.do` right now, everything will work!!
 
 The runtime is around 10 minutes. Enjoy the rest of your reproduction!
+
+---
+
+Some typos were found in `Twenty Year Impacts of Deworming - Data Replication_README.pdf`. They are documented below:
+
+- Under 'CODE FILES', item 1C, `Worms20_do_appendix.do` is misnamed. It should be `Worms20_master_paper_appendix.do`.
+- Under 'CODE FILES', item 2, it incorrectly says `Cost_benefit_pooled.R` is used to produce Figure 1. It actually produces Figure 2. The reference to Figure 1 in item 1B is also incorrect.
+- Under 'ADO FILES', item 1, `fdr_sharpened_qvalues.ado` is misnamed. It should be `fdr_adjustment.ado`.
