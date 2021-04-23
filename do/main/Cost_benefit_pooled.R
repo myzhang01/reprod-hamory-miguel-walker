@@ -17,7 +17,7 @@ library(readxl)
 library(dplyr)
 
 #-------- set output directory
-setwd("KLPS/20-yr-replication_materials/output")
+setwd("C:/Users/myzha/Documents/GitHub/reprod-hamory-miguel-walker/output")
 
 ##25-year - Third graph
 ggplot(data=NULL) +
